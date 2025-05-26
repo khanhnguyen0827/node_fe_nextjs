@@ -1,4 +1,4 @@
-import { formatLocalTime, resError } from "@/helpers/function.helper";
+import { checkPathImage, formatLocalTime, resError } from "@/helpers/function.helper";
 import { useCreateReactionArticle } from "@/tantask/reaction.tanstack";
 import { TArticle } from "@/types/article.type";
 import { EReactionArticle } from "@/types/enum/reaction.enum";
@@ -82,7 +82,7 @@ export default function Article({ article }: TProps) {
                   sizes="100vw"
                   style={{ width: "100%", height: "100%", objectFit: "cover", maxHeight: `700px` }}
                /> */}
-               <ImageMantine src={`${NEXT_PUBLIC_BASE_DOMAIN_CLOUDINARY}${article.imageUrl}`} />
+               <ImageMantine src={checkPathImage(article.imageUrl)} />
             </Box>
          )}
 
