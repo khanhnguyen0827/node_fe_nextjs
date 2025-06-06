@@ -60,5 +60,17 @@
       "postcss-simple-vars": "^7.0.1",
       "tailwindcss": "^3.4.1",
       "typescript": "^5"
-   }
+   },
+   "description": "NEXT_PUBLIC_GOOGLE_CLIENT_ID=\"\"\r NEXT_PUBLIC_BASE_DOMAIN_API=\"http://localhost:3069/\"\r NEXT_PUBLIC_BASE_DOMAIN_CLOUDINARY=\"\"",
+   "main": "index.js",
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vulebaolong/node_fe_nextjs.git"
+   },
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/vulebaolong/node_fe_nextjs/issues"
+   },
+   "homepage": "https://github.com/vulebaolong/node_fe_nextjs#readme"
 }
